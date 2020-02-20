@@ -6,3 +6,21 @@ body {
     font-family: 'Quicksand', sans-serif;
     background-color: rgb(247, 247, 248);
 }
+
+
+/* Other Classes for Page Styling */
+
+body {
+  background:  rgb(247, 247, 248);
+}
+z
+
+.footer {
+          position: fixed;
+          left: 0;
+          bottom: 0;
+          width: 100%;
+          background-color: slategrey;
+          color: white;
+          text-align: center;
+        }

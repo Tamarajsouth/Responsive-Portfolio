@@ -32,6 +32,7 @@
 <script src="https://kit.fontawesome.com/4bfa8ea42e.js" crossorigin="anonymous"></script>
 
 <body>
+    <!-- Nav Bar -->
     <nav class="navbar navbar-expand-sm navbar-light bg-light">
         <a class="navbar-brand" href="index.html">tamarajsouth</a>
         <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
@@ -43,9 +44,6 @@
                 <li class="nav-item active">
                     <a class="nav-link" href="index.html">about me<span class="sr-only">(current)</span></a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">contact</a>
-                </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="portfolio.html" id="dropdownId" data-toggle="dropdown"
                         aria-haspopup="true" aria-expanded="false">portfolio</a>
@@ -53,6 +51,9 @@
                         <a class="dropdown-item" href="dropdown1.html">recent work</a>
                         <a class="dropdown-item" href="dropdown2.html">archives</a>
                     </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">contact</a>
                 </li>
             </ul>
         </div>
@@ -64,19 +65,65 @@
                 <div class="col text-center">current projects & works in progess</div>
             </div>
             <hr>
-            <div class="row">
-                <div class="col">
-                    <img src="https://66.media.tumblr.com/217df41a251a7221edc8f0502037e2fe/tumblr_oou1nkwsqv1w3qfm1o1_400.jpg" alt="cute sleepy puppy">
+            <!-- First Card -->
+            <div class="card-group">
+                <div class="card">
+                    <img class="card-img-top"
+                        src="https://www.dogingtonpost.com/wp-content/uploads/2016/07/summerdog.jpg"
+                        alt="hot girl summer">
+                    <div class="card-body">
+                        <h5 class="card-title">summer 2019</h5>
+                        <p class="card-text">Hot Dog Summer. Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                            sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
                 </div>
-                <hr>
-                <br>
-                <div class="row">
-                    <hr>
-                    <div class="col">
-                        <img src="https://66.media.tumblr.com/b6886457f0f2c60873433e577398fa3f/tumblr_oxirffo9So1w8f1tco1_400.jpg" alt="cute sleepy golden">    
+                <!-- Second Card -->
+                <div class="card">
+                    <img class="card-img-top"
+                        src="https://blog.worldofangus.com/wp-content/uploads/2016/09/dog-in-pumpkin-patch-770x510.jpg"
+                        alt="pumpkin spice dog">
+                    <div class="card-body">
+                        <h5 class="card-title">fall 2019</h5>
+                        <p class="card-text">Pumpkin Spice Fall. Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                </div>
+                <!-- Third Card -->
+                <div class="card">
+                    <img class="card-img-top"
+                        src="https://www.news10.com/wp-content/uploads/sites/64/2019/07/Dog-Hiding.jpg?w=900"
+                        alt="snow doggy">
+                    <div class="card-body">
+                        <h5 class="card-title">winter 2020</h5>
+                        <p class="card-text">Winter is Coming. Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                            sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                </div>
             </div>
         </div>
+    </div>
 
 </body>
+<style>
+    .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: slategrey;
+        color: white;
+        text-align: center;
+    }
+</style>
+
+<div class="footer">
+    <p>©tamarajsouth 2020</p>
+</div>
 
 </html>
