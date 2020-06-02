@@ -48,11 +48,15 @@ body {
 }
 
 .footer {
-          position: fixed;
-          left: 0;
-          bottom: 0;
-          width: 100%;
-          background-color: slategrey;
-          color: white;
-          text-align: center;
-        }
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: slategrey;
+  color: white;
+  text-align: center;
+}
+
+#img-burger {
+  border-style: 2px solid black;
+}
